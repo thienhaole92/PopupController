@@ -36,6 +36,6 @@ final class DemoPopupViewController4: UIViewController {
 extension DemoPopupViewController4: PopupContentViewController {
 
     func sizeForPopup(_ popupController: PopupController, size: CGSize, showingKeyboard: Bool) -> CGSize {
-        return CGSize(width: UIScreen.main.bounds.width, height: 64)
+        return CGSize(width: UIScreen.main.bounds.width, height: 200.0)
     }
 }

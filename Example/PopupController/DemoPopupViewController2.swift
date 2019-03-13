@@ -9,7 +9,7 @@
 import UIKit
 
 class DemoPopupViewController2: UIViewController, PopupContentViewController, UITableViewDataSource {
-    
+
     var fruits = [
         ("Apple", UIColor.red),
         ("Banana", UIColor.yellow),
@@ -20,12 +20,12 @@ class DemoPopupViewController2: UIViewController, PopupContentViewController, UI
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.view.layer.cornerRadius = 4
     }
-    
+
     class func instance() -> DemoPopupViewController2 {
         let storyboard = UIStoryboard(name: "DemoPopupViewController2", bundle: nil)
         return storyboard.instantiateInitialViewController() as! DemoPopupViewController2
@@ -35,24 +35,24 @@ class DemoPopupViewController2: UIViewController, PopupContentViewController, UI
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     func sizeForPopup(_ popupController: PopupController, size: CGSize, showingKeyboard: Bool) -> CGSize {
         return CGSize(width: 300, height: 500)
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return fruits.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! DemoPopup2Cell
         let (text, color) = fruits[(indexPath as NSIndexPath).row]
         cell.colorView.backgroundColor = color
         cell.titleLabel.text = text
-        
+
         return cell
     }
-    
+
 }
 
 class DemoPopup2Cell: UITableViewCell {

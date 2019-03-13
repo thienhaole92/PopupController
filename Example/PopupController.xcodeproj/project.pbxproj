@@ -14,7 +14,6 @@
 		9D468A0A1C63601D00AF56C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D468A081C63601D00AF56C7 /* Main.storyboard */; };
 		9D468A0C1C63601D00AF56C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D468A0B1C63601D00AF56C7 /* Assets.xcassets */; };
 		9D468A0F1C63601D00AF56C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D468A0D1C63601D00AF56C7 /* LaunchScreen.storyboard */; };
-		9D468A1A1C63601D00AF56C7 /* PopupControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D468A191C63601D00AF56C7 /* PopupControllerTests.swift */; };
 		9D468A351C63667900AF56C7 /* DemoPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D468A341C63667900AF56C7 /* DemoPopupViewController.swift */; };
 		9D468A371C63772800AF56C7 /* DemoPopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D468A361C63772800AF56C7 /* DemoPopupViewController.storyboard */; };
 		9D468A391C63857900AF56C7 /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D468A381C63857900AF56C7 /* PopupController.swift */; };
@@ -26,16 +25,6 @@
 		9D61E9121C69CC7300E74610 /* DemoPopupViewController3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D61E9111C69CC7300E74610 /* DemoPopupViewController3.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9D468A161C63601D00AF56C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9D4689F91C63601D00AF56C7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D468A001C63601D00AF56C7;
-			remoteInfo = PopupController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		070595431E27B5730001EC00 /* DemoPopupViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPopupViewController4.swift; sourceTree = "<group>"; };
 		070595451E27B57D0001EC00 /* DemoPopupViewController4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DemoPopupViewController4.storyboard; sourceTree = "<group>"; };
@@ -46,9 +35,6 @@
 		9D468A0B1C63601D00AF56C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D468A0E1C63601D00AF56C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D468A101C63601D00AF56C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D468A151C63601D00AF56C7 /* PopupControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D468A191C63601D00AF56C7 /* PopupControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupControllerTests.swift; sourceTree = "<group>"; };
-		9D468A1B1C63601D00AF56C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D468A341C63667900AF56C7 /* DemoPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPopupViewController.swift; sourceTree = "<group>"; };
 		9D468A361C63772800AF56C7 /* DemoPopupViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DemoPopupViewController.storyboard; sourceTree = "<group>"; };
 		9D468A381C63857900AF56C7 /* PopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopupController.swift; path = ../../Classes/PopupController.swift; sourceTree = "<group>"; };
@@ -68,13 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D468A121C63601D00AF56C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				9D468A031C63601D00AF56C7 /* PopupController */,
-				9D468A181C63601D00AF56C7 /* PopupControllerTests */,
 				9D468A021C63601D00AF56C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				9D468A011C63601D00AF56C7 /* PopupController.app */,
-				9D468A151C63601D00AF56C7 /* PopupControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,15 +88,6 @@
 				9D468A101C63601D00AF56C7 /* Info.plist */,
 			);
 			path = PopupController;
-			sourceTree = "<group>";
-		};
-		9D468A181C63601D00AF56C7 /* PopupControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				9D468A191C63601D00AF56C7 /* PopupControllerTests.swift */,
-				9D468A1B1C63601D00AF56C7 /* Info.plist */,
-			);
-			path = PopupControllerTests;
 			sourceTree = "<group>";
 		};
 		9D468A3A1C6386E900AF56C7 /* DemoViewControllers */ = {
@@ -157,24 +125,6 @@
 			productReference = 9D468A011C63601D00AF56C7 /* PopupController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D468A141C63601D00AF56C7 /* PopupControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D468A2C1C63601D00AF56C7 /* Build configuration list for PBXNativeTarget "PopupControllerTests" */;
-			buildPhases = (
-				9D468A111C63601D00AF56C7 /* Sources */,
-				9D468A121C63601D00AF56C7 /* Frameworks */,
-				9D468A131C63601D00AF56C7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D468A171C63601D00AF56C7 /* PBXTargetDependency */,
-			);
-			name = PopupControllerTests;
-			productName = PopupControllerTests;
-			productReference = 9D468A151C63601D00AF56C7 /* PopupControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,17 +132,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Daisuke Sato";
 				TargetAttributes = {
 					9D468A001C63601D00AF56C7 = {
 						CreatedOnToolsVersion = 7.2.1;
 						LastSwiftMigration = 0800;
-					};
-					9D468A141C63601D00AF56C7 = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
-						TestTargetID = 9D468A001C63601D00AF56C7;
 					};
 				};
 			};
@@ -210,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				9D468A001C63601D00AF56C7 /* PopupController */,
-				9D468A141C63601D00AF56C7 /* PopupControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,13 +172,6 @@
 				9D468A421C638D8B00AF56C7 /* DemoPopupViewController2.storyboard in Resources */,
 				070595461E27B57D0001EC00 /* DemoPopupViewController4.storyboard in Resources */,
 				9D468A0A1C63601D00AF56C7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D468A131C63601D00AF56C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,23 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D468A111C63601D00AF56C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D468A1A1C63601D00AF56C7 /* PopupControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9D468A171C63601D00AF56C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9D468A001C63601D00AF56C7 /* PopupController */;
-			targetProxy = 9D468A161C63601D00AF56C7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9D468A081C63601D00AF56C7 /* Main.storyboard */ = {
@@ -301,13 +222,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -330,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -349,13 +280,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -372,9 +313,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -390,7 +332,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daisukeSato.PopupController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -403,33 +345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daisukeSato.PopupController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		9D468A2D1C63601D00AF56C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PopupControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daisukeSato.PopupControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupController.app/PopupController";
-			};
-			name = Debug;
-		};
-		9D468A2E1C63601D00AF56C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PopupControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.daisukeSato.PopupControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupController.app/PopupController";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -450,15 +366,6 @@
 			buildConfigurations = (
 				9D468A2A1C63601D00AF56C7 /* Debug */,
 				9D468A2B1C63601D00AF56C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D468A2C1C63601D00AF56C7 /* Build configuration list for PBXNativeTarget "PopupControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D468A2D1C63601D00AF56C7 /* Debug */,
-				9D468A2E1C63601D00AF56C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
